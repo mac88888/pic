@@ -1,0 +1,99 @@
+2021-10-22 09:27:51 - xgs_rcp_discounts table upgrade to 202003311 successful.
+2021-10-22 09:27:51 - xgs_rcp_discounts table upgrade to 202003312 successful.
+2021-10-22 09:27:51 - xgs_rcp_discounts table upgrade to 202003313 successful.
+2021-10-22 09:28:57 - Starting rcp_check_for_expired_users() cron job.
+2021-10-22 09:28:57 - Starting rcp_check_for_soon_to_expire_users() cron job.
+2021-10-22 09:28:57 - Starting rcp_check_member_counts() cron job.
+2021-10-22 09:28:57 - Starting rcp_mark_abandoned_payments() cron job.
+2021-10-22 11:38:05 - Batch Processing: Initiating RCP_Batch_Callback_CSV_Import_Base. Current step: 0; current count: 0; total count: 0.
+2021-10-22 11:38:05 - There was an error saving the job in RCP\Utils\Batch\Job::save. Job config: array (
+  'queue' => 'rcp_csv_import',
+  'name' => 'CSV Memberships Import',
+  'description' => 'Import memberships from file: rcp-memberships-export-2021-10-22.csv',
+  'callback' => 'RCP_Batch_Callback_Import_Memberships',
+  'total_count' => 0,
+  'current_count' => 0,
+  'step' => 0,
+  'status' => 'incomplete',
+  'data' => 'a:3:{s:9:"file_path";s:45:"2021/10/rcp-memberships-export-2021-10-22.csv";s:8:"settings";a:4:{s:9:"object_id";s:0:"";s:6:"status";s:0:"";s:15:"expiration_date";s:0:"";s:27:"disable_notification_emails";s:1:"1";}s:9:"field_map";N;}',
+  'date_created' => '2021-10-22 11:37:38',
+  'date_completed' => '',
+)
+2021-10-22 11:38:05 - Batch CSV Import: Total count: 0.
+2021-10-22 11:38:05 - Batch CSV Import: Job complete. Errors: array (
+)
+2021-10-22 11:39:31 - Batch Processing: Initiating RCP_Batch_Callback_CSV_Import_Base. Current step: 0; current count: 0; total count: 0.
+2021-10-22 11:39:31 - There was an error saving the job in RCP\Utils\Batch\Job::save. Job config: array (
+  'queue' => 'rcp_csv_import',
+  'name' => 'CSV Memberships Import #3',
+  'description' => 'Import memberships from file: rcp-memberships-export-2021-10-22-1.csv',
+  'callback' => 'RCP_Batch_Callback_Import_Memberships',
+  'total_count' => 0,
+  'current_count' => 0,
+  'step' => 0,
+  'status' => 'incomplete',
+  'data' => 'a:3:{s:9:"file_path";s:47:"2021/10/rcp-memberships-export-2021-10-22-1.csv";s:8:"settings";a:4:{s:9:"object_id";s:0:"";s:6:"status";s:0:"";s:15:"expiration_date";s:0:"";s:27:"disable_notification_emails";s:1:"1";}s:9:"field_map";N;}',
+  'date_created' => '2021-10-22 11:39:22',
+  'date_completed' => '',
+)
+2021-10-22 11:39:31 - Batch CSV Import: Total count: 0.
+2021-10-22 11:39:31 - Batch CSV Import: Job complete. Errors: array (
+)
+2021-10-22 11:41:53 - Batch Processing: Initiating RCP_Batch_Callback_CSV_Import_Base. Current step: 0; current count: 0; total count: 0.
+2021-10-22 11:41:53 - There was an error saving the job in RCP\Utils\Batch\Job::save. Job config: array (
+  'queue' => 'rcp_csv_import',
+  'name' => 'CSV Memberships Import #4',
+  'description' => 'Import memberships from file: rcp-memberships-export-2021-10-22-2.csv',
+  'callback' => 'RCP_Batch_Callback_Import_Memberships',
+  'total_count' => 0,
+  'current_count' => 0,
+  'step' => 0,
+  'status' => 'incomplete',
+  'data' => 'a:3:{s:9:"file_path";s:47:"2021/10/rcp-memberships-export-2021-10-22-2.csv";s:8:"settings";a:4:{s:9:"object_id";s:0:"";s:6:"status";s:0:"";s:15:"expiration_date";s:0:"";s:27:"disable_notification_emails";s:1:"1";}s:9:"field_map";N;}',
+  'date_created' => '2021-10-22 11:41:29',
+  'date_completed' => '',
+)
+2021-10-22 11:41:53 - Batch CSV Import: Total count: 0.
+2021-10-22 11:41:53 - Batch CSV Import: Job complete. Errors: array (
+)
+2021-10-22 11:55:35 - Batch Processing: Initiating RCP_Batch_Callback_CSV_Import_Base. Current step: 0; current count: 0; total count: 0.
+2021-10-22 11:55:35 - There was an error saving the job in RCP\Utils\Batch\Job::save. Job config: array (
+  'queue' => 'rcp_csv_import',
+  'name' => 'CSV Memberships Import #5',
+  'description' => 'Import memberships from file: rcp-memberships-export-2021-10-22-5.csv',
+  'callback' => 'RCP_Batch_Callback_Import_Memberships',
+  'total_count' => 0,
+  'current_count' => 0,
+  'step' => 0,
+  'status' => 'incomplete',
+  'data' => 'a:3:{s:9:"file_path";s:47:"2021/10/rcp-memberships-export-2021-10-22-5.csv";s:8:"settings";a:4:{s:9:"object_id";s:0:"";s:6:"status";s:0:"";s:15:"expiration_date";s:0:"";s:27:"disable_notification_emails";s:1:"1";}s:9:"field_map";a:1:{s:10:"user_email";s:0:"";}}',
+  'date_created' => '2021-10-22 11:55:26',
+  'date_completed' => '',
+)
+2021-10-22 11:55:35 - Batch CSV Import: Total count: 0.
+2021-10-22 11:55:35 - Batch CSV Import: Job complete. Errors: array (
+)
+2021-10-22 14:21:12 - xgs_rcp_discounts table upgrade to 202003311 successful.
+2021-10-22 14:21:12 - xgs_rcp_discounts table upgrade to 202003312 successful.
+2021-10-22 14:21:12 - xgs_rcp_discounts table upgrade to 202003313 successful.
+2021-10-22 14:21:15 - Starting rcp_check_for_expired_users() cron job.
+2021-10-22 14:21:15 - Starting rcp_check_for_soon_to_expire_users() cron job.
+2021-10-22 14:21:17 - Starting rcp_check_for_expired_users() cron job.
+2021-10-22 14:21:17 - Starting rcp_check_for_soon_to_expire_users() cron job.
+2021-10-22 14:26:23 - Batch Processing: Initiating RCP_Batch_Callback_CSV_Import_Base. Current step: 0; current count: 0; total count: 0.
+2021-10-22 14:26:23 - There was an error saving the job in RCP\Utils\Batch\Job::save. Job config: array (
+  'queue' => 'rcp_csv_import',
+  'name' => 'CSV Memberships Import #7',
+  'description' => 'Import memberships from file: rcp-memberships-export-2021-10-22-1.csv',
+  'callback' => 'RCP_Batch_Callback_Import_Memberships',
+  'total_count' => 0,
+  'current_count' => 0,
+  'step' => 0,
+  'status' => 'incomplete',
+  'data' => 'a:3:{s:9:"file_path";s:47:"2021/10/rcp-memberships-export-2021-10-22-1.csv";s:8:"settings";a:4:{s:9:"object_id";s:0:"";s:6:"status";s:6:"active";s:15:"expiration_date";s:0:"";s:27:"disable_notification_emails";s:1:"1";}s:9:"field_map";N;}',
+  'date_created' => '2021-10-22 14:26:19',
+  'date_completed' => '',
+)
+2021-10-22 14:26:23 - Batch CSV Import: Total count: 0.
+2021-10-22 14:26:23 - Batch CSV Import: Job complete. Errors: array (
+)
