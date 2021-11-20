@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//macoscrack.com/main-sitemap.xsl"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>Locations for Macoscrack.com</name>
+		<open>1</open>
+		<Folder>
+			<atom:link href="https://macoscrack.com" />
+			<Placemark>
+				<name><![CDATA[Macoscrack.com]]></name>
+				<description><![CDATA[macOS Crack - Mac Cracked Apps and Games - Best Mac cracked apps and games download]]></description>
+				<address><![CDATA[]]></address>
+				<phoneNumber><![CDATA[]]></phoneNumber>
+				<atom:link href="https://macoscrack.com"/>
+				<LookAt>
+					<altitude>0</altitude>
+					<range></range>
+					<tilt>0</tilt>
+				</LookAt>
+				<Point>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>
