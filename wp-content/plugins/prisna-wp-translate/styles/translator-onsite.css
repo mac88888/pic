@@ -1,0 +1,324 @@
+/**
+ * Prisna WP Translate
+ * https://www.prisna.net/
+ *
+ * LICENSE
+ *
+ * @package    Prisna WP Translate
+ * @copyright  Copyright (c) 2021, Prisna Ltd, www.prisna.net
+ * @license    https://www.prisna.net/license/
+ * @version    1.15.20
+ * @date       2021-10-30
+ */
+
+#prisna-wp-translate-onsite {
+
+	position: fixed !important;
+	width: 500px !important;
+	padding: 0 !important;
+	z-index: 999999998 !important;
+	border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	box-shadow: 0 0 4px rgba(0,0,0,.1) !important;
+	background-color: #fff !important;
+	border: 1px solid #ebebeb !important;
+	outline: none !important;
+	color: #555 !important;
+	box-sizing: content-box !important;
+}
+
+#prisna-wp-translate-onsite * {
+	font: 13px/1.4 Arial,sans-serif !important;
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+	outline: none !important;
+	background-color: #fff !important;
+}
+
+#prisna-wp-translate-onsite #prisna-wp-translate-onsite-navigation-locate.prisna-wp-translate-onsite-hidden,
+.prisna-wp-translate-onsite-hidden {
+	display: none !important;
+}
+
+.prisna-wp-translate-onsite-soft-hidden {
+	display: none;
+}
+
+#prisna-wp-translate-onsite table {
+	border-collapse: separate !important;
+	width: 100% !important;
+}
+
+#prisna-wp-translate-onsite table,
+#prisna-wp-translate-onsite td {
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: left !important;
+}
+
+#prisna-wp-translate-onsite-header {
+	margin: 0 !important;
+	padding: 15px !important;
+	border-bottom: 1px solid #ebebeb !important;
+}
+
+#prisna-wp-translate-onsite-body {
+	margin: 20px 0 0 0 !important;
+	padding: 0 35px !important;
+}
+
+#prisna-wp-translate-onsite-body table {
+	background: #fff !important;
+}
+
+#prisna-wp-translate-onsite-body td td {
+	padding-top: 5px !important;
+}
+
+#prisna-wp-translate-onsite-body td td div {
+	display: inline-block !important;
+}
+
+#prisna-wp-translate-onsite-body td td span {
+	width: 1% !important;
+	white-space: nowrap !important;
+	padding-left: 5px !important;
+	vertical-align: top !important;
+	text-align: left !important;
+	color: #bbb !important;
+	font-size: 11px !important;
+	font-style: italic !important;
+}
+
+.prisna-wp-translate-onsite-icon {
+	display: inline-block !important;
+	width: 14px !important;
+	height: 12px !important;
+	background-image: url(../images/admin/onsite.png?ver=1.15.20) !important;
+	background-repeat: no-repeat !important;
+	background-position: center top !important;
+	cursor: pointer !important;
+}
+
+#prisna-wp-translate-onsite-header span {
+	display: inline-block !important;
+	font-size: 20px !important;
+	vertical-align: middle !important;
+	box-shadow: none !important;
+	-moz-user-select: -moz-none !important;
+	-khtml-user-select: none !important;
+	-webkit-user-select: none !important;
+	-ms-user-select: none !important;
+	user-select: none !important;
+}
+
+#prisna-wp-translate-onsite-navigation-first,
+#prisna-wp-translate-onsite-navigation-last,
+#prisna-wp-translate-onsite-navigation-previous,
+#prisna-wp-translate-onsite-navigation-locate,
+#prisna-wp-translate-onsite-navigation-next {
+	width: 25px !important;
+	height: 25px !important;
+	background-image: url(../images/admin/onsite.png?ver=1.15.20) !important;
+	background-repeat: no-repeat !important;
+	border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	background-color: #fff !important;
+	border: 1px solid #bbb !important;
+	cursor: pointer !important;
+	outline: none !important;
+	margin: 0 10px 0 0 !important;
+}
+
+#prisna-wp-translate-onsite-navigation-first {
+	background-position: 3px -125px !important;
+}
+
+#prisna-wp-translate-onsite-navigation-last {
+	background-position: 3px -175px !important;
+}
+
+#prisna-wp-translate-onsite-navigation-previous {
+	background-position: 3px -25px !important;
+}
+
+#prisna-wp-translate-onsite-navigation-locate {
+	background-position: 4px -324px !important;
+}
+
+#prisna-wp-translate-onsite-navigation-next {
+	background-position: 3px -75px !important;
+}
+
+#prisna-wp-translate-onsite-navigation-of,
+#prisna-wp-translate-onsite-navigation-count,
+#prisna-wp-translate-onsite-navigation-index {
+	height: 25px !important;
+}
+
+#prisna-wp-translate-onsite-navigation-move {
+	width: 130px !important;
+	height: 22px !important;
+	background-image: url(../images/admin/onsite.png?ver=1.15.20) !important;
+	background-repeat: no-repeat !important;
+	background-position: 113px -275px !important;
+	cursor: move !important;
+	float: right !important;
+}
+
+#prisna-wp-translate-onsite-navigation-close {
+	width: 25px !important;
+	height: 22px !important;
+	background-image: url(../images/admin/onsite.png?ver=1.15.20) !important;
+	background-repeat: no-repeat !important;
+	background-position: 6px -225px !important;
+	cursor: pointer !important;
+	float: right !important;
+}
+
+#prisna-wp-translate-onsite-title div {
+	text-transform: uppercase !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+	line-height: 1.4em !important;
+	color: #555 !important;
+}
+
+
+#prisna-wp-translate-onsite #prisna-wp-translate-onsite-html-title,
+#prisna-wp-translate-onsite #prisna-wp-translate-onsite-the-original-title,
+#prisna-wp-translate-onsite #prisna-wp-translate-onsite-the-translation-title {
+	padding: 10px 0 1px !important;
+	border-bottom: 1px solid #ddd !important;
+}
+
+#prisna-wp-translate-onsite #prisna-wp-translate-onsite-original,
+#prisna-wp-translate-onsite #prisna-wp-translate-onsite-translation {
+	padding: 10px 0 !important;
+}
+
+#prisna-wp-translate-onsite #prisna-wp-translate-onsite-html input,
+#prisna-wp-translate-onsite-html-title div,
+#prisna-wp-translate-onsite-the-original-title div,
+#prisna-wp-translate-onsite-the-translation-title div {
+	color: #bbb !important;
+	font-weight: normal !important;
+	font-size: 11px !important;
+}
+
+#prisna-wp-translate-onsite input[type="text"],
+#prisna-wp-translate-onsite textarea {
+	color: #333 !important;
+	font-weight: normal !important;
+	font-size: 12px !important;	
+	padding: 5px 7px !important;
+	border: 1px solid #ddd !important;
+	border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	resize: vertical !important;
+	width: 365px !important;
+	background: #fff !important;
+}
+
+#prisna-wp-translate-onsite #prisna-wp-translate-onsite-buttons {
+	padding: 20px 0 30px !important;
+}
+
+#prisna-wp-translate-onsite-buttons input {
+	background: #fff !important;
+	border: 1px solid #ddd !important;
+	border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	color: #333 !important;
+	font-size: 12px !important;
+	font-weight: normal !important;
+	padding: 5px 7px !important;
+	text-transform: none !important;
+	margin: 0 10px 0 0 !important;
+	vertical-align: bottom !important;
+	cursor: pointer !important;
+	height: auto !important;
+	letter-spacing: normal !important;
+}
+
+#prisna-wp-translate-onsite-title {
+	position: relative !important;
+}
+
+.prisna-wp-translate-onsite-tooltip {
+	background: transparent url(../images/admin/tooltip_soft.png?ver=1.15.20) no-repeat !important;
+	background-position: center center !important;
+	height: 16px !important;
+	width: 20px !important;
+	display: inline-block !important;
+	float: right !important;
+	margin: 4px -4px 0 4px !important;
+	cursor: pointer !important;
+}
+
+.prisna-wp-translate-onsite-description {
+	font-size: 11px !important;
+	padding: 10px 12px !important;
+	width: 444px !important;
+	line-height: 14px !important;
+	z-index: 999999999 !important;
+	border: 1px solid #bbb !important;
+	color: #555 !important;
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+	background-color: #fff !important;
+}
+
+.prisna-wp-translate-saved {
+	background-image: url(../images/admin/onsite.png?ver=1.15.20) !important;
+	background-repeat: no-repeat !important;
+	background-position: 0 -378px !important;
+	width: 17px !important;
+	height: 18px !important;
+	display: inline-block !important;
+}
+
+#prisna-wp-translate-onsite .prisna-wp-translate-loading {
+	background-image: url(../images/admin/loading.gif?ver=1.15.20) !important;
+	background-repeat: no-repeat !important;
+	background-position: 1px center !important;
+	width: 18px !important;
+	height: 19px !important;
+	display: inline-block !important;
+}
+
+#prisna-wp-translate-onsite .prisna-wp-translate-onsite-hidden.prisna-wp-translate-saved,
+#prisna-wp-translate-onsite .prisna-wp-translate-onsite-hidden.prisna-wp-translate-loading {
+	display: none !important;
+}
+
+.prisna-wp-translate-onsite-block #prisna-wp-translate-onsite-navigation-first,
+.prisna-wp-translate-onsite-block #prisna-wp-translate-onsite-navigation-previous,
+.prisna-wp-translate-onsite-block #prisna-wp-translate-onsite-navigation-next,
+.prisna-wp-translate-onsite-block #prisna-wp-translate-onsite-navigation-last,
+.prisna-wp-translate-onsite-block #prisna-wp-translate-onsite-navigation-close,
+.prisna-wp-translate-onsite-block #prisna-wp-translate-onsite-button-save,
+.prisna-wp-translate-onsite-block #prisna-wp-translate-onsite-button-save-all,
+.prisna-wp-translate-onsite-block #prisna-wp-translate-onsite-button-cancel {
+	-moz-opacity: 0.3 !important;
+	filter: alpha(opacity:30) !important;
+	opacity: 0.3 !important;
+}
+
+#prisna-wp-translate-onsite-buttons input#prisna-wp-translate-onsite-button-cancel {
+	margin-right: 9px !important;
+}
+
+#prisna-wp-translate-onsite .prisna-wp-translate-onsite-description .prisna-wp-translate-onsite-tooltip-title {
+	text-transform: uppercase !important;
+	font-weight: bold !important;
+	padding-bottom: 10px !important;
+	font-size: 16px !important;
+}
